@@ -149,23 +149,26 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 60px;
+    gap: 50px;
 }
 
 .hero-content {
     flex: 1;
+    max-width: 650px;
 }
 
 .hero-image {
-    flex: 0 0 300px;
+    width: 280px;
+    flex-shrink: 0;
 }
 
 .hero-image img {
-    width: 300px;
-    height: 300px;
+    display: block;
+    width: 280px;
+    height: 340px;
     object-fit: cover;
-    border-radius: 50%;
-    border: 1px solid #d9dee7;
+    object-position: center;
+    border-radius: 12px;
 }
 
 .button {
