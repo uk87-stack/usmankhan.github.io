@@ -145,29 +145,18 @@ body {
     margin-top: 35px;
 }
 
-.hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 50px;
-}
-
-.hero-content {
-    flex: 1;
-    max-width: 650px;
-}
-
 .hero-image {
-    width: 280px;
+    width: 260px;
     flex-shrink: 0;
+    margin-right: 35px;
 }
 
 .hero-image img {
     display: block;
-    width: 280px;
-    height: 340px;
+    width: 260px;
+    height: 320px;
     object-fit: cover;
-    object-position: center;
+    object-position: center top;
     border-radius: 12px;
 }
 
