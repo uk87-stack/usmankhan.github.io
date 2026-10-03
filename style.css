@@ -145,6 +145,29 @@ body {
     margin-top: 35px;
 }
 
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-image {
+    flex: 0 0 300px;
+}
+
+.hero-image img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid #d9dee7;
+}
+
 .button {
     display: inline-block;
 
@@ -674,5 +697,18 @@ footer {
         flex-direction: column;
         gap: 8px;
     }
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
 
+    .hero-image {
+        flex: none;
+    }
+
+    .hero-image img {
+        width: 220px;
+        height: 220px;
+    }
 }
